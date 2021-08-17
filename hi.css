@@ -1,0 +1,1098 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div#dautrang{
+    height: 90px;
+    width: 100%;
+    border-bottom: solid 1px hsl(60, 2%, 46%) ;
+}
+a#dautrang{
+    width:160px;
+    font-size: 45px;
+    margin-left: 382px;
+    padding-top: 26px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  
+}
+a#dautrang:hover{
+    color: brown;
+}
+article#vungdangnhap{
+  position: relative;
+  left: 1032px;
+  bottom: 40px;
+  display: block;
+  font-size: 15px;
+  
+}
+i{
+    padding-right: 5px;
+}
+a#myguu{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+#myguu:hover .fa-heart {
+    color: brown;
+}
+#myguu:hover{
+    color: brown;
+}
+a#guuhot{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+a#guuhot:hover .fa-star{
+    color: brown;
+}
+a#guuhot:hover{
+    color: brown;
+}
+a#dangnhap{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+a#dangnhap:hover .fa-user{
+    color: brown;
+}
+a#dangnhap:hover{
+    color: brown;
+}
+a#guibaiviet{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: solid 3px hsl(0, 47%, 45%);
+    color: black;
+    text-decoration: none;
+}
+a#guibaiviet:hover .fa-pen{
+    color: brown;
+}
+a#guibaiviet:hover{
+    color: brown;
+}
+div#phanguu{
+    padding-left: 382px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: solid 3px black;
+}
+.guu1{
+    text-decoration:none;
+    color: black;
+    padding: 14px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.guu1:hover{
+    color:brown;
+}
+a.khoito{
+    width: 567px;
+    height: 425px;
+    
+    display: block;
+    position: relative;
+}
+a.khoito img.mo1{
+    width: 567px;
+}
+a.khoito .mo0{
+    width: 567px;
+    height: 425px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0) 75%,rgba(0, 0, 0, 0.623));
+}
+a.khoito .tieudeto{
+    width: 567px;
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    z-index: 3;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 27px;
+}
+a.khoito:hover .mo0{
+    opacity: 60%;
+    transition: 0.2s;
+    
+}
+.cackhoi{
+    width: 1140px;
+    height: 643px;
+    padding-left: 382px;
+}
+a.khoinho1{
+    width: 281px;
+    height: 212px;
+    position: relative;
+    display: block;
+    left: 570px;
+    bottom: 425px;
+}
+.khoinho1 img.mo1{
+    width: 281px;
+    height: 212px;
+}
+.khoinho1 span.mo0{
+    width: 281px;
+    height: 212px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0) 75%,rgba(0, 0, 0, 0.623));
+
+
+}
+.khoinho1 span.tieudenho{
+    width: 281px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    padding: 10px;
+}
+a.khoinho1:hover .mo0{
+    opacity: 60%;
+    transition: 0.2s;
+    
+}
+a.khoinho2{
+    width: 281px;
+    height: 212px;
+    position: relative;
+    display: block;
+    left: 854px;
+    bottom: 637px;
+
+}
+.khoinho2 img.mo1{
+    width: 281px;
+    height: 212px;
+}
+.khoinho2 span.mo0{
+    width: 281px;
+    height: 212px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0) 75%,rgba(0, 0, 0, 0.623));
+
+
+}
+.khoinho2 span.tieudenho{
+    width: 281px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    padding: 10px;
+}
+a.khoinho2:hover .mo0{
+    opacity: 60%;
+    transition: 0.2s;
+    
+}
+a.khoinho3{
+    width: 281px;
+    height: 210px;
+    position: relative;
+    display: block;
+    left: 570px;
+    bottom: 634px;
+
+}
+.khoinho3 img.mo1{
+    width: 281px;
+    height: 210px;
+}
+.khoinho3 span.mo0{
+    width: 281px;
+    height: 210px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0) 75%,rgba(0, 0, 0, 0.623));
+
+
+}
+.khoinho3 span.tieudenho{
+    width: 281px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    padding: 10px;
+}
+a.khoinho3:hover .mo0{
+    opacity: 60%;
+    transition: 0.2s;
+    
+}
+a.khoinho4{
+    width: 281px;
+    height: 210px;
+    position: relative;
+    display: block;
+    left: 854px;
+    bottom: 844px;
+
+}
+.khoinho4 img.mo1{
+    width: 281px;
+    height: 210px;
+}
+.khoinho4 span.mo0{
+    width: 281px;
+    height: 210px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0) 75%,rgba(0, 0, 0, 0.623));
+
+
+}
+.khoinho4 span.tieudenho{
+    width: 281px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    padding: 10px;
+}
+a.khoinho4:hover .mo0{
+    opacity: 60%;
+    transition: 0.2s;
+    
+}
+a.khoinho5{
+    width: 281px;
+    height: 210px;
+    position: relative;
+    left: 0px;
+    bottom:841px;
+
+}
+.khoinho5 img.mo1{
+    width: 281px;
+    height: 210px;
+}
+.khoinho5 span.mo0{
+    width: 281px;
+    height: 210px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0) 75%,rgba(0, 0, 0, 0.623));
+
+
+}
+.khoinho5 span.tieudenho{
+    width: 265px;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left:0px;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    padding: 10px;
+    margin-right:10px ;
+}
+a.khoinho5:hover .mo0{
+    opacity: 60%;
+    transition: 0.2s;
+    
+}
+a.khoinho6{
+    width: 285px;
+    height: 210px;
+    position: relative;
+    left: -1px;
+    bottom: 841px;
+
+}
+.khoinho6 img.mo1{
+    width: 283px;
+    height: 210px;
+}
+.khoinho6 span.mo0{
+    width: 283px;
+    height: 210px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0) 75%,rgba(0, 0, 0, 0.623));
+
+
+}
+.khoinho6 span.tieudenho{
+    width: 281px;
+    position: absolute;
+    bottom: 0;
+    left:0px;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    padding: 10px;
+    margin-right:10px ;
+}
+a.khoinho6:hover .mo0{
+    opacity: 60%;
+    transition: 0.2s;
+    
+}
+a.khoinho7{
+    width: 285px;
+    height: 210px;
+    position: relative;
+    left: -2px;
+    bottom: 841px;
+
+}
+.khoinho7 img.mo1{
+    width: 281px;
+    height: 210px;
+}
+.khoinho7 span.mo0{
+    width: 281px;
+    height: 210px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0) 75%,rgba(0, 0, 0, 0.623));
+
+
+}
+.khoinho7 span.tieudenho{
+    width: 272px;
+    position: absolute;
+    bottom: 0;
+    left:0px;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    padding: 10px;
+    margin-right:10px ;
+}
+a.khoinho7:hover .mo0{
+    opacity: 60%;
+    transition: 0.2s;
+    
+}
+a.khoinho8{
+    width: 285px;
+    height: 210px;
+    position: relative;
+    left: -3px;
+    bottom: 841px;
+
+}
+.khoinho8 img.mo1{
+    width: 281px;
+    height: 210px;
+}
+.khoinho8 span.mo0{
+    width: 281px;
+    height: 210px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0) 75%,rgba(0, 0, 0, 0.623));
+
+
+}
+.khoinho8 span.tieudenho{
+    width: 281px;
+    position: absolute;
+    bottom: 0;
+    left:0px;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    padding: 10px;
+    margin-right:10px ;
+}
+a.khoinho8:hover .mo0{
+    opacity: 60%;
+    transition: 0.2s;
+    
+}
+p.cacbaiblog{
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 382px;
+    margin-top: 40px;
+    font-size:30px;
+}
+div.saublog{
+    width: 360px;
+    height: 490px;
+    margin-left: 382px;
+    margin-top: 15px;
+    position: relative;
+}
+div.saublog a.mo2 img.mo3{
+    width: 360px;
+}
+div.saublog span.namtronganh{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    padding-left: 13px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: #faa404;
+    color: cornsilk;
+}
+i.fa-caret-up{
+    width: 28px;
+    height: 21px;
+    position: absolute;
+    top:184px;
+    padding-left: 7px;
+    color: cornsilk;
+    font-size: 30px;
+}
+div.saublog img.anhminhhoa{
+    padding-top: 5px;
+    width: 34px;
+}
+div.saublog a.tenbloger{
+    margin-top: -30px;
+    margin-left: 37px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+div.saublog a.tenbloger:hover{
+    color: crimson;
+}
+div.saublog a.tieudeblog{
+    display: block;
+    padding-top:25px;
+    font-size: 24.5px;
+    text-decoration:none;
+    font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding-bottom:20px;
+}
+div.saublog a.tieudeblog:hover{
+    color: crimson;
+}
+div.saublog p.tieudeblog{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+}
+div.saublog2{
+    width: 360px;
+    height: 490px;
+    margin-left: 780px;
+    margin-top: -490px;
+    position: relative;
+}
+div.saublog2 a.mo2 img.mo3{
+    width: 360px;
+}
+div.saublog2 span.namtronganh{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    padding-left: 13px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: #faa404;
+    color: cornsilk;
+}
+i.fa-caret-up{
+    width: 28px;
+    height: 21px;
+    position: absolute;
+    top:184px;
+    padding-left: 7px;
+    color: cornsilk;
+    font-size: 30px;
+}
+div.saublog2 img.anhminhhoa{
+    padding-top: 5px;
+    width: 34px;
+}
+div.saublog2 a.tenbloger{
+    margin-top: -30px;
+    margin-left: 37px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+div.saublog2 a.tenbloger:hover{
+    color: crimson;
+}
+div.saublog2 a.tieudeblog{
+    display: block;
+    padding-top:25px;
+    font-size: 24.5px;
+    text-decoration:none;
+    font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding-bottom:20px;
+}
+div.saublog2 a.tieudeblog:hover{
+    color: crimson;
+}
+div.saublog2 p.tieudeblog{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+}
+div.saublog3{
+    width: 360px;
+    height: 490px;
+    margin-left: 382px;
+    margin-top: 15px;
+    position: relative;
+}
+div.saublog3 a.mo2 img.mo3{
+    width: 360px;
+}
+div.saublog3 span.namtronganh{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    padding-left: 13px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: #faa404;
+    color: cornsilk;
+}
+i.fa-caret-up{
+    width: 28px;
+    height: 21px;
+    position: absolute;
+    top:184px;
+    padding-left: 7px;
+    color: cornsilk;
+    font-size: 30px;
+}
+div.saublog3 img.anhminhhoa{
+    padding-top: 5px;
+    width: 34px;
+}
+div.saublog3 a.tenbloger{
+    margin-top: -30px;
+    margin-left: 37px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+div.saublog3 a.tenbloger:hover{
+    color: crimson;
+}
+div.saublog3 a.tieudeblog{
+    display: block;
+    padding-top:25px;
+    font-size: 24.5px;
+    text-decoration:none;
+    font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding-bottom:20px;
+    width: 350px;
+}
+div.saublog3 a.tieudeblog:hover{
+    color: crimson;
+}
+div.saublog3 p.tieudeblog{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+}
+div.saublog4{
+    width: 360px;
+    height: 490px;
+    margin-left: 780px;
+    margin-top: -490px;
+    position: relative;
+}
+div.saublog4 a.mo2 img.mo3{
+    width: 360px;
+}
+div.saublog4 span.namtronganh{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    padding-left: 13px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: #faa404;
+    color: cornsilk;
+}
+i.fa-caret-up{
+    width: 28px;
+    height: 21px;
+    position: absolute;
+    top:184px;
+    padding-left: 7px;
+    color: cornsilk;
+    font-size: 30px;
+}
+div.saublog4 img.anhminhhoa{
+    padding-top: 5px;
+    width: 34px;
+}
+div.saublog4 a.tenbloger{
+    margin-top: -30px;
+    margin-left: 37px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+div.saublog4 a.tenbloger:hover{
+    color: crimson;
+}
+div.saublog4 a.tieudeblog{
+    display: block;
+    padding-top:25px;
+    font-size: 24.5px;
+    text-decoration:none;
+    font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding-bottom:20px;
+}
+div.saublog4 a.tieudeblog:hover{
+    color: crimson;
+}
+div.saublog4 p.tieudeblog{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+}
+p.tintaitro{
+    text-transform: uppercase;
+    position: absolute;
+    top: 822px;
+    left: 1200px;
+    font-size: 30px;
+}
+div.tintaitro{
+    width: 356px;
+    height: 103px;
+    margin-left: 1200px;
+    margin-top: -995px;
+}
+div.tintaitro img.hi1{
+    width: 180px;
+}
+div.tintaitro a.tintaitro1{
+    width: 156px;
+    display: block;
+    position: relative;
+    left: 195px;
+    bottom:103px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.tintaitro a.tintaitro1:hover{
+    color: brown;
+}
+div.chuyenmuc{
+    width: 1175px;
+    border-top: solid 2px black;
+    margin-left: 375px;
+    margin-top:990px;
+}
+div.chuyenmuc p.chuyenmuc{
+    font-size:30px;
+    text-transform:uppercase;
+    margin-top:25px;
+    margin-bottom:40px;
+}
+div.chuyenmuc1{
+    width: 360px;
+    margin-left: 375px;
+    margin-top:0;
+
+}
+div.chuyenmuc1 a.hihi img.hihi1{
+    width: 360px;
+    position: relative;
+}
+div.chuyenmuc1 a.guuthoitrang{
+    text-decoration: none;
+    color: black;
+    margin:10px 0px 10px;
+    display: block;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom:20px;
+}
+div.chuyenmuc1 a.guuthoitrang:hover{
+    color: crimson;
+}
+div.chuyenmuc1 a#vivu1 .fa-caret-up{
+    width: 28px;
+    height: 21px;
+    position: absolute;
+    left: 373px;
+    top:2294px ;
+    color: #ffffff;
+    font-size:30px;
+}
+div.chuyenmuc1 a.hihi2{
+    display: block;
+    color: black;
+    text-decoration:none;
+    margin-top:40px;
+    font-size:25px;
+    margin-bottom:20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+div.chuyenmuc1 a.hihi2:hover{
+    color: crimson;
+}
+div.chuyenmuc1 a.hihi3{
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top:-13px;
+}
+div.chuyenmuc1 a.hihi3:hover{
+    color: brown;
+}
+div.chuyenmuc1 i.fa-circle{
+    color: black;
+    font-size:5px;
+    margin-right:7px;
+
+   
+}
+div.chuyenmuc1 a.hihi4{
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top:-15px;
+    
+}
+div.chuyenmuc1 a.hihi4:hover{
+    color: brown;
+}
+div.chuyenmuc1 p.hihi i.fa-circle {
+    color: black;
+    font-size:5px;
+    margin-right:7px;
+    margin-top:40px;
+
+   
+}
+div.chuyenmuc2{
+    width: 360px;
+    margin-left: 775px;
+    margin-top:-535px;
+
+}
+div.chuyenmuc2 a.hihi img.hihi1{
+    width: 360px;
+    position: relative;
+}
+div.chuyenmuc2 a.guulamdep{
+    text-decoration: none;
+    color: black;
+    margin:10px 0px 10px;
+    display: block;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom:20px;
+}
+div.chuyenmuc2 a.guulamdep:hover{
+    color: crimson;
+}
+div.chuyenmuc2 a#vivu1 .fa-caret-up{
+    width: 28px;
+    height: 21px;
+    position: absolute;
+    left: 773px;
+    top:2294px ;
+    color: #ffffff;
+    font-size:30px;
+}
+div.chuyenmuc2 a.hihi2{
+    display: block;
+    color: black;
+    text-decoration:none;
+    margin-top:40px;
+    font-size:25px;
+    margin-bottom:20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+div.chuyenmuc2 a.hihi2:hover{
+    color: crimson;
+}
+div.chuyenmuc2 a.hihi3{
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top:-13px;
+}
+div.chuyenmuc2 a.hihi3:hover{
+    color: brown;
+}
+div.chuyenmuc2 i.fa-circle{
+    color: black;
+    font-size:5px;
+    margin-right:7px;
+
+   
+}
+div.chuyenmuc2 a.hihi4{
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top:-15px;
+    
+}
+div.chuyenmuc2 a.hihi4:hover{
+    color: brown;
+}
+div.chuyenmuc2 p.hihi i.fa-circle {
+    color: black;
+    font-size:5px;
+    margin-right:7px;
+    margin-top:40px;
+
+   
+}
+div.chuyenmuc3{
+    width: 360px;
+    margin-left: 1175px;
+    margin-top:-580px;
+
+}
+div.chuyenmuc3 a.hihi img.hihi1{
+    width: 360px;
+    position: relative;
+}
+div.chuyenmuc3 a.guucuocsong{
+    text-decoration: none;
+    color: black;
+    margin:10px 0px 10px;
+    display: block;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom:20px;
+}
+div.chuyenmuc3 a.guucuocsong:hover{
+    color: crimson;
+}
+div.chuyenmuc3 a#vivu1 .fa-caret-up{
+    width: 28px;
+    height: 21px;
+    position: absolute;
+    left: 1173px;
+    top:2294px ;
+    color: #ffffff;
+    font-size:30px;
+}
+div.chuyenmuc3 a.hihi2{
+    display: block;
+    color: black;
+    text-decoration:none;
+    margin-top:40px;
+    font-size:25px;
+    margin-bottom:20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+div.chuyenmuc3 a.hihi2:hover{
+    color: crimson;
+}
+div.chuyenmuc3 a.hihi3{
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top:-13px;
+}
+div.chuyenmuc3 a.hihi3:hover{
+    color: brown;
+}
+div.chuyenmuc3 i.fa-circle{
+    color: black;
+    font-size:5px;
+    margin-right:7px;
+
+   
+}
+div.chuyenmuc3 a.hihi4{
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top:-15px;
+    
+}
+div.chuyenmuc3 a.hihi4:hover{
+    color: brown;
+}
+div.chuyenmuc3 p.hihi i.fa-circle {
+    color: black;
+    font-size:5px;
+    margin-right:7px;
+    margin-top:40px;
+
+   
+}
+div.phancuoi{
+    height: 186px;
+    background-color: black;
+    margin-top:200px;
+}
+article.phancuoi{
+    margin-left:382px;
+    width: 420px;
+    height: 114px;
+    padding-top:40px;
+}
+div.phancuoi p.tencongty{
+    font-weight:bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.phancuoi article.phancuoi a.email{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin-top:20px;
+    display: block;
+}
+div.phancuoi article.phancuoi a.dienthoai{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    display: block;
+    margin-top:20px;
+}
+div.phancuoi article.phancuoi p.diachi{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    display: block;
+    margin-top:20px;
+}
+div.phancuoi article.phancuoi2{
+    width: 190px;
+    height: 135px;
+    margin-left:990px;
+    margin-top: -113px;
+}
+div.phancuoi article.phancuoi2 a.email{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin-top:20px;
+    display: block;
+}
+div.phancuoi article.phancuoi2 a.dienthoai{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    display: block;
+    margin-top:20px;
+}
+div.phancuoi article.phancuoi2 a.quangcao{
+    display: block;
+    background-color: white;
+    text-decoration:none;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 8px 10px;
+    margin-top:10px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
